@@ -1,0 +1,32 @@
+[
+  {
+    "email": "ankush@gmail.com",
+    "firstName": "Ankush",
+    "lastName": "Chaudhary",
+    "passwordHash": "19054201933496986272509397525969634875997474344914105405495246662997492226705"
+  },
+  {
+    "email": "ankushc@gmail.com",
+    "firstName": "Ankush",
+    "lastName": "Chaudhary",
+    "passwordHash": "19054201933496986272509397525969634875997474344914105405495246662997492226705"
+  },
+  {
+    "email": "ankushch@gmail.com",
+    "firstName": "Ankush",
+    "lastName": "Chaudhary",
+    "passwordHash": "19054201933496986272509397525969634875997474344914105405495246662997492226705"
+  },
+  {
+    "email": "a@c.com",
+    "firstName": "Anku",
+    "lastName": "Cha",
+    "passwordHash": "17960746458699107234253845518924549950633501868153305050541323229148177659262"
+  },
+  {
+    "email": "a@c.co",
+    "firstName": "Ank",
+    "lastName": "NC",
+    "passwordHash": "16244238434626040888360096817636554801174813852091805514575387341928477400771"
+  }
+]

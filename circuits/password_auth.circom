@@ -18,4 +18,4 @@ template PasswordAuthCircuit() {
     passwordHash === computedHash; // The key constraint in the circuit that enforces the condition: password's computed hash should match computed hash
 }
 
-component main = PasswordAuthCircuit(); // this creates an instance of the template as a manin component. This acts as entry point for compiler for compiling the circuit
+component main { public [passwordHash] } = PasswordAuthCircuit(); // this creates an instance of the template as a manin component. This acts as entry point for compiler for compiling the circuit
