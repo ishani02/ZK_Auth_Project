@@ -1,0 +1,88 @@
+.register-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #101820, #1b2735);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 420px;
+    color: white;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.register-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 28px;
+    letter-spacing: 0.4px;
+}
+
+.register-input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.register-input::placeholder {
+    color: #cccccc;
+}
+
+.register-input:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid #00c6ff;
+}
+
+.register-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-button:hover {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.error-text {
+    text-align: center;
+    color: #ff4d4f;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
