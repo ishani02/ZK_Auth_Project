@@ -28,5 +28,23 @@
     "firstName": "Ank",
     "lastName": "NC",
     "passwordHash": "16244238434626040888360096817636554801174813852091805514575387341928477400771"
+  },
+  {
+    "email": "ankushchaudhary16@gmail.com",
+    "firstName": "Ankush",
+    "lastName": "Chaudhary",
+    "passwordHash": "19054201933496986272509397525969634875997474344914105405495246662997492226705"
+  },
+  {
+    "email": "ik@co.com",
+    "firstName": "Ishani",
+    "lastName": "Kohli",
+    "passwordHash": "19054201933496986272509397525969634875997474344914105405495246662997492226705"
+  },
+  {
+    "email": "ishanikohli@gmail.com",
+    "firstName": "Ishani",
+    "lastName": "Kohli",
+    "passwordHash": "19054201933496986272509397525969634875997474344914105405495246662997492226705"
   }
 ]

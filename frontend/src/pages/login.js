@@ -61,9 +61,6 @@ function Login({ setIsAuth }) {
                 publicSignals
             });
 
-            console.log("Expected:", passwordHash);
-            console.log("Got from proof:", publicSignals[0]);
-            console.log("Success: ", verifyRes.data.success)
             if (verifyRes.data.success && publicSignals[0] === passwordHash) {
                 localStorage.setItem("user", JSON.stringify({ email: form.email, firstName, lastName }));
                 setIsAuth(true);
